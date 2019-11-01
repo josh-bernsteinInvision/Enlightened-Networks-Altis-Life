@@ -372,4 +372,12 @@ class Life_Client_Core {
         class vehTakeItem {};
         class vInteractionMenu {};
     };
+	
+};
+class UPM {
+    tag = "UPM";
+    class UPM_system {
+        file = "UPM";
+        class showNotification {};
+    };
 };

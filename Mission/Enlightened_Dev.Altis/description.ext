@@ -23,6 +23,7 @@ class RscTitles {
     #include "dialog\hud_nameTags.hpp"
     //#include "dialog\hud_stats.hpp"
 	#include "dialog\new_HUD.hpp"
+	#include "UPM\Rsc\RscNotification.hpp"
 };
 
 class CfgFunctions {
