@@ -53,3 +53,5 @@ if (life_shop_type isEqualTo "gold" && (LIFE_SETTINGS(getNumber,"noatm_timer")) 
 };
 
 [3] call SOCK_fnc_updatePartial;
+
+if ((M_CONFIG(getNumber,"VirtualItems",_type,"illegal")) isEqualTo 0) then {     [_price,1] spawn max_gouvernement_fnc_gouvernementTaxe; }

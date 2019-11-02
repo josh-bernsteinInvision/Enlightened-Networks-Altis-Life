@@ -19,6 +19,7 @@ class CfgServer {
 };
 
 class RscTitles {
+    #include "The-Programmer\AdvancedIdentity\RscTitles.hpp"
     #include "dialog\progress.hpp"
     #include "dialog\hud_nameTags.hpp"
     //#include "dialog\hud_stats.hpp"
@@ -83,6 +84,7 @@ class CfgSounds {
 };
 
 class CfgDebriefing {
+#include "The-Programmer\AdvancedIdentity\debriefing.sqf"
 class kick {         title = "Global banned";         description = "You're not allowed to join this server cause you're banned by the-programmer.com";     }; 
     class NotWhitelisted {
         title = "$STR_NotWhitelisted_Title";

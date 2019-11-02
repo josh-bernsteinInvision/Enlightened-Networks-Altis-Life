@@ -1,3 +1,7 @@
 #include "Radial_Menu\dialogs.cpp"
 #include "Iphone_X\dialogs.cpp"
 #include "Dynamic_Market\dialogs.cpp"  
+#include "Craft\dialogs.cpp"
+#include "AdvancedIdentity\dialogs.cpp"
+#include "Gouvernement\dialogs.cpp"
+#include "WhitelistMenu\dialogs.cpp" 

@@ -1,1 +1,5 @@
 #include "Dynamic_Market\remoteExec.cpp"
+#include "Craft\remoteExec.cpp"
+#include "AdvancedIdentity\remoteExec.cpp"
+#include "Gouvernement\remoteExec.cpp"
+#include "WhitelistMenu\remoteExec.cpp" 

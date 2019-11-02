@@ -1,0 +1,65 @@
+﻿30.10.2019 16:21:37: <infiSTAR.de> _fnc_RandomGen: {
+_fnc_actualGen = {
+_abc = ['z','y','x','w','v','u','t','s','r','q','p','o','n','m','l','k','j','i','h','g','f','e','d','c','b','a'];
+_gen = _abc select (random ((count _abc)-1));
+_arr = ['a','0','9','a','5','e','7','7','0','b','a','f','a','c','b','f','0','b','b','1','3','b','4','7','7','f','a','0','b','5','e','d','1'];
+_randmax = {((round(random _randminval)) + (round(random _randmaxval))) max _randminval};
+for '_i' from 0 to (call _randmax)do
+{
+_gen = _gen + str(round(random 9)) + (_arr select (random ((count _arr)-1)));
+};
+};
+_gen = '';
+while{_gen=='' || _gen in _allRandomGenVars}do{
+call _fnc_actualGen;
+};
+_allRandomGenVars pushBack _gen;
+_gen
+}
+30.10.2019 16:21:37: ----START-LINE----   (27-10-2019 07-27-50 - v259)
+30.10.2019 16:21:37: _adminbox: g3b3a578d079e87839b475b7b8b491d040a4d8e
+30.10.2019 16:21:37: _fnc_mpPackets: r579a4b4a303a70707030753b547d7d83
+30.10.2019 16:21:37: _FNC_AH_KICKLOG: q308a8e5b3c8b5350755b350f7b5b30
+30.10.2019 16:21:37: _FNC_AH_KICKLOGSPAWN: f37294f140b10170b5e377f776a5a1f3b
+30.10.2019 16:21:37: _FNC_PVAH_AdminReq: i4c5d4747574a805a8a5f5e102a7e8469058e6f0a0b075f1f
+30.10.2019 16:21:37: _token_by_uid: n5027840b67436750877a2a6e6b7a4f2a5b555b4e
+30.10.2019 16:21:37: _uid_by_token: r5a0b898c693b8d652511
+30.10.2019 16:21:37: _server_setTokenR: h318b373b6e879b371770014e0f108c2321472a2d300d67176c806e80
+30.10.2019 16:21:38: _YourPlayerToken: o491b156b30008c7a1e1b4a
+30.10.2019 16:21:38: _TokenCT: s714e6a600b2547974b1b8f4e1a07
+30.10.2019 16:21:38: _AH_MAIN_BLOCK: g1b102b4f0f8a4d7a8f103f451517301a0e1f10757780
+30.10.2019 16:21:38: _AHKickOFF: d0115572f401f57515e1a
+30.10.2019 16:21:38: _AHKickLog: m4e2110472487806b2b6e9f3f1b9d3b11
+30.10.2019 16:21:38: _clientdo: k2b474a00617c2a4f548f3a7b3f94493a5b807a
+30.10.2019 16:21:38: _AH_RunCheckENDVAR: k7e2b3d919c712b554070
+30.10.2019 16:21:38: _AH_RunCheckENDVAR_THREAD: j50555e007d5c1f4b6b47899f876f0b8e372f357a
+30.10.2019 16:21:38: _AH_HackLogArrayRND: h600e6e5b8b3a675f3e2e375e3f0a394a37235a4c
+30.10.2019 16:21:38: _AH_SurvLogArrayRND: h6a7a60109c515e9f3745
+30.10.2019 16:21:38: _AH_AdmiLogArrayRND: j6e8b97815b556b4f3a20974985107a1b80152c07417b
+30.10.2019 16:21:38: _TMPBAN: s0e4c67454c1b4b551a57
+30.10.2019 16:21:38: _massMessage: m8f54109b293f2b9b3753573c4a10653b2e4a1b3f4a
+30.10.2019 16:21:38: _massSysMessage: p130f851b6c3f4f543117115f9b1f5d8a498a
+30.10.2019 16:21:38: _AHpos: f5a5b1f2f0a3a6c2017875b3f5a814b205a6b6a1a093f8b3e5a
+30.10.2019 16:21:38: _ninetwo: e1733472b5a4e55007a712519706e3e5787734a
+30.10.2019 16:21:38: _ninetwothread: u014094807c3a7f4f9c604b5b51308b5d90176c502a
+30.10.2019 16:21:38: _adminsA: t20158b7d4b9b102a337f8e8b570b951d57
+30.10.2019 16:21:38: _MC: q5e43417e3b275b7b4b4e713d3b1e73305b1f4b55
+30.10.2019 16:21:38: _MCS: w95503b698b136b005b508b1b177e8e2c8b8b10
+30.10.2019 16:21:38: _checkidicheckcheck: g4a156b9a1a1b4b7e2f7b
+30.10.2019 16:21:38: _lastshotmade: m5b4f5a7e237a2b1b7047
+30.10.2019 16:21:38: _dellocveh: i0a0f2a2361015b95213767636e1a
+30.10.2019 16:21:38: _inCombatTime: e09277a65672f7e873d47755b042c9e512f0b6a771b
+30.10.2019 16:21:38: _inCombatArray: c138d1b25812e1e114033577b0e27509a6d974d
+30.10.2019 16:21:38: _fnc_infiKeyHandler: y556e1a7f0770552a4f7f8d3a70313770147094
+30.10.2019 16:21:38: _vehicle_needs_check: j1b20817a5197012d1b147c
+30.10.2019 16:21:38: _MAKE_VAR_DUMP_RANDOM: s6f3b7b172b777b639a54
+30.10.2019 16:21:38: _MAKE_VAR_DUMP_CLIENT: l1a8b876b8e7b2a2c7b6a
+30.10.2019 16:21:38: _DUMPINGPLAYERUIDARRAY: g1b1b1f8a6a3307771c10
+30.10.2019 16:21:38: _CURRENTLYDUMPING: r8b7a6f2a05541e1f9b1b7f1b0f2f302f971b
+30.10.2019 16:21:38: _antiantihack_rndvar: d65403a4c2a173b85655a577a372a
+30.10.2019 16:21:38: _name_by_uid: u87476b301b5f9a345b3b5b8b
+30.10.2019 16:21:38: _owner_by_uid: x213a406e43531a2b2000
+30.10.2019 16:21:38: _customcommandingMenu: g198d1b1a6a172a173a7777107a6b
+30.10.2019 16:21:38: _customcommandingMenuOpen: v77476b4a1325507e64073520070f5a45378e03
+30.10.2019 16:21:38: _AH_KICKLOG: PVAHR_0s8k8d6w3k5z5m
+30.10.2019 16:21:38: ----END-LINE----   (27-10-2019 07-27-50 - v259)

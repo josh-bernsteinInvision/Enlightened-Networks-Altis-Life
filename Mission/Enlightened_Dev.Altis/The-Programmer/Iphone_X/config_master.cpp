@@ -23,9 +23,9 @@ class The_Programmer_Settings_Iphone {
     advanced_phone_script_enable = false;
     bill_system_script_enable = false;
     companies_script_enable = false;
-    governement_script_enable = false;
+    governement_script_enable = true;
     dispatch_script_enable = false;
-    whitelist_menu_script_enable = false;
+    whitelist_menu_script_enable = true;
     dynamic_market_script_enable = true;
 
     enable_cellphone_animations = true; // You need to put the "The_Programmer_Cellphone" mod into your modpack !
