@@ -18,7 +18,7 @@
 #define true 1
 
 class Max_Settings_WhitelistMenu {
-    default_lang = "fr"; // fr / en / de / es
+    default_lang = "en"; // fr / en / de / es
 
     tonic_version = 5; //5 if you are on version 5.0 or 4 if you are on version 4.X 
 

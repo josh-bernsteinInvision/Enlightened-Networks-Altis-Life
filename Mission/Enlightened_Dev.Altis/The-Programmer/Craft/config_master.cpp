@@ -45,6 +45,23 @@ class Max_Settings_Craft {
                 progress_text = "Fabrication d'une pioche";
                 timeToCraft = 60; // In seconds
             };
+			class wire {
+				itemsRequired[] = {
+					{"copper_refined",5},
+					{"iron_refined",2}
+				};
+				moneyRequired = 100;
+
+                itemGive = "wire"; // Class of the object if virtuel item, classname of the object in the other cases
+                condition = "";
+
+                description = "Une pioche, pour faire un trou"; // Put "" for nothing
+                picture_path = ""; // Put "" for nothing; example : "The-Programmer\Craft\textures\my_logo.paa" -> Size : 512 x 512
+
+                progress_text = "Fabrication d'une pioche";
+                timeToCraft = 60; // In seconds
+            };
+					
         };
 
         class weapon { // CATEGORY CLASS -> DO NOT EDIT

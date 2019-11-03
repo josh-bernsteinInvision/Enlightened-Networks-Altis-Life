@@ -855,4 +855,36 @@ class VirtualItems {
         edible = 100;
         icon = "icons\ico_muttonLeg.paa";
     };
+	class leather {
+		variable = "leather";
+		displayName = "leather";
+		weight = 2;
+		buyPrice = 6000;
+		sellPrice = 3500;
+		illegal = false;
+		icon = "icons\leather02";
+	};
+	
+	//Craftable
+	class wire {
+		variable = "wire";
+		displayName = "Wire";
+		weight = 1;
+		buyPrice = -1;
+		sellPrice = -1;
+		illegal = false;
+		icon = "icons\wire-icon-15.jpg";
+	};
+	class gunpowder {
+		variable = "gunpowder";
+		displayName = "GunPowder";
+		weight = 3;
+		buyPrice = -1;
+		sellPrice = 3500;
+		illegal = false;
+		icon = "icons\wire-icon-15.jpg";
+	};
+	
+		
+	
 };

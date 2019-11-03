@@ -49,4 +49,194 @@ class CfgDynamicMarketPrice {
 		specialEvents[] = { {"New company specialized in apple sales", 0.15, 0.8}, {"A scientific study proves the benefits of apples", 1.15, 1.8} };
 		itemInfluenced[] = { {"peach", 1.25} };
 	};
+	class rabbit {
+		isHide = false;
+		synchronizeBuyPrice = false;
+		minPrice = 1254;
+		maxPrice = 5488;
+		defaultPrice = 1478;
+		influence = 0.15;
+		specialEvents[] = { {"New company specialized in apple sales", 0.15, 0.8}, {"A scientific study proves the benefits of apples", 1.15, 1.8} };
+		itemInfluenced[] = { {"peach", 1.25} };
+	};
+	class storagesmall {
+		isHide = false;
+		synchronizeBuyPrice = false;
+		minPrice = 1254;
+		maxPrice = 5488;
+		defaultPrice = 1478;
+		influence = 0.15;
+		specialEvents[] = { {"New company specialized in apple sales", 0.15, 0.8}, {"A scientific study proves the benefits of apples", 1.15, 1.8} };
+		itemInfluenced[] = { {"peach", 1.25} };
+	};
+	class storagebig {
+		isHide = false;
+		synchronizeBuyPrice = false;
+		minPrice = 1254;
+		maxPrice = 5488;
+		defaultPrice = 1478;
+		influence = 0.15;
+		specialEvents[] = { {"New company specialized in apple sales", 0.15, 0.8}, {"A scientific study proves the benefits of apples", 1.15, 1.8} };
+		itemInfluenced[] = { {"peach", 1.25} };
+	};
+	class rabbit_raw {
+		isHide = false;
+		synchronizeBuyPrice = false;
+		minPrice = 1254;
+		maxPrice = 5488;
+		defaultPrice = 1478;
+		influence = 0.15;
+		specialEvents[] = { {"New company specialized in apple sales", 0.15, 0.8}, {"A scientific study proves the benefits of apples", 1.15, 1.8} };
+		itemInfluenced[] = { {"peach", 1.25} };
+	};
+	class hen_raw {
+		isHide = false;
+		synchronizeBuyPrice = false;
+		minPrice = 1254;
+		maxPrice = 5488;
+		defaultPrice = 1478;
+		influence = 0.15;
+		specialEvents[] = { {"New company specialized in apple sales", 0.15, 0.8}, {"A scientific study proves the benefits of apples", 1.15, 1.8} };
+		itemInfluenced[] = { {"peach", 1.25} };
+	};
+	class rooster_raw {
+		isHide = false;
+		synchronizeBuyPrice = false;
+		minPrice = 1254;
+		maxPrice = 5488;
+		defaultPrice = 1478;
+		influence = 0.15;
+		specialEvents[] = { {"New company specialized in apple sales", 0.15, 0.8}, {"A scientific study proves the benefits of apples", 1.15, 1.8} };
+		itemInfluenced[] = { {"peach", 1.25} };
+	};
+	class sheep_raw {
+		isHide = false;
+		synchronizeBuyPrice = false;
+		minPrice = 1254;
+		maxPrice = 5488;
+		defaultPrice = 1478;
+		influence = 0.15;
+		specialEvents[] = { {"New company specialized in apple sales", 0.15, 0.8}, {"A scientific study proves the benefits of apples", 1.15, 1.8} };
+		itemInfluenced[] = { {"peach", 1.25} };
+	};
+	class goat_raw {
+		isHide = false;
+		synchronizeBuyPrice = false;
+		minPrice = 1254;
+		maxPrice = 5488;
+		defaultPrice = 1478;
+		influence = 0.15;
+		specialEvents[] = { {"New company specialized in apple sales", 0.15, 0.8}, {"A scientific study proves the benefits of apples", 1.15, 1.8} };
+		itemInfluenced[] = { {"peach", 1.25} };
+	};
+	class peach {
+		isHide = false;
+		synchronizeBuyPrice = false;
+		minPrice = 1254;
+		maxPrice = 5488;
+		defaultPrice = 1478;
+		influence = 0.15;
+		specialEvents[] = { {"New company specialized in apple sales", 0.15, 0.8}, {"A scientific study proves the benefits of apples", 1.15, 1.8} };
+		itemInfluenced[] = { {"peach", 1.25} };
+	};
+	class cocaine_processed {
+		isHide = false;
+		synchronizeBuyPrice = false;
+		minPrice = 1254;
+		maxPrice = 5488;
+		defaultPrice = 1478;
+		influence = 0.15;
+		specialEvents[] = { {"New company specialized in apple sales", 0.15, 0.8}, {"A scientific study proves the benefits of apples", 1.15, 1.8} };
+		itemInfluenced[] = { {"peach", 1.25} };
+	};
+	class marijuana {
+		isHide = false;
+		synchronizeBuyPrice = false;
+		minPrice = 1254;
+		maxPrice = 5488;
+		defaultPrice = 1478;
+		influence = 0.15;
+		specialEvents[] = { {"New company specialized in apple sales", 0.15, 0.8}, {"A scientific study proves the benefits of apples", 1.15, 1.8} };
+		itemInfluenced[] = { {"peach", 1.25} };
+	};
+	class oil_processed {
+		isHide = false;
+		synchronizeBuyPrice = false;
+		minPrice = 1254;
+		maxPrice = 5488;
+		defaultPrice = 1478;
+		influence = 0.15;
+		specialEvents[] = { {"New company specialized in apple sales", 0.15, 0.8}, {"A scientific study proves the benefits of apples", 1.15, 1.8} };
+		itemInfluenced[] = { {"peach", 1.25} };
+	};
+	class glass {
+		isHide = false;
+		synchronizeBuyPrice = false;
+		minPrice = 1254;
+		maxPrice = 5488;
+		defaultPrice = 1478;
+		influence = 0.15;
+		specialEvents[] = { {"New company specialized in apple sales", 0.15, 0.8}, {"A scientific study proves the benefits of apples", 1.15, 1.8} };
+		itemInfluenced[] = { {"peach", 1.25} };
+	};
+	class iron_refined {
+		isHide = false;
+		synchronizeBuyPrice = false;
+		minPrice = 1254;
+		maxPrice = 5488;
+		defaultPrice = 1478;
+		influence = 0.15;
+		specialEvents[] = { {"New company specialized in apple sales", 0.15, 0.8}, {"A scientific study proves the benefits of apples", 1.15, 1.8} };
+		itemInfluenced[] = { {"peach", 1.25} };
+	};
+	class copper_refined {
+		isHide = false;
+		synchronizeBuyPrice = false;
+		minPrice = 1254;
+		maxPrice = 5488;
+		defaultPrice = 1478;
+		influence = 0.15;
+		specialEvents[] = { {"New company specialized in apple sales", 0.15, 0.8}, {"A scientific study proves the benefits of apples", 1.15, 1.8} };
+		itemInfluenced[] = { {"peach", 1.25} };
+	};
+	class diamond_cut {
+		isHide = false;
+		synchronizeBuyPrice = false;
+		minPrice = 1254;
+		maxPrice = 5488;
+		defaultPrice = 1478;
+		influence = 0.15;
+		specialEvents[] = { {"New company specialized in apple sales", 0.15, 0.8}, {"A scientific study proves the benefits of apples", 1.15, 1.8} };
+		itemInfluenced[] = { {"peach", 1.25} };
+	};
+	class salt_refined {
+		isHide = false;
+		synchronizeBuyPrice = false;
+		minPrice = 1254;
+		maxPrice = 5488;
+		defaultPrice = 1478;
+		influence = 0.15;
+		specialEvents[] = { {"New company specialized in apple sales", 0.15, 0.8}, {"A scientific study proves the benefits of apples", 1.15, 1.8} };
+		itemInfluenced[] = { {"peach", 1.25} };
+	};
+	class cement {
+		isHide = false;
+		synchronizeBuyPrice = false;
+		minPrice = 1254;
+		maxPrice = 5488;
+		defaultPrice = 1478;
+		influence = 0.15;
+		specialEvents[] = { {"New company specialized in apple sales", 0.15, 0.8}, {"A scientific study proves the benefits of apples", 1.15, 1.8} };
+		itemInfluenced[] = { {"peach", 1.25} };
+	};
+	class goldbar {
+		isHide = false;
+		synchronizeBuyPrice = false;
+		minPrice = 1254;
+		maxPrice = 5488;
+		defaultPrice = 1478;
+		influence = 0.15;
+		specialEvents[] = { {"New company specialized in apple sales", 0.15, 0.8}, {"A scientific study proves the benefits of apples", 1.15, 1.8} };
+		itemInfluenced[] = { {"peach", 1.25} };
+	};
 };

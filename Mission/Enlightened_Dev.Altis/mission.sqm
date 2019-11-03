@@ -8,18 +8,18 @@ class EditorData
 	toggles=5;
 	class ItemIDProvider
 	{
-		nextID=1228;
+		nextID=1240;
 	};
 	class MarkerIDProvider
 	{
-		nextID=226;
+		nextID=232;
 	};
 	class Camera
 	{
-		pos[]={3695.6331,71.581085,13043.686};
-		dir[]={-0.81807637,-0.34339601,-0.46135899};
-		up[]={-0.29911268,0.93918884,-0.16868706};
-		aside[]={-0.49122965,-2.5262125e-007,0.87104213};
+		pos[]={21856.24,32.301025,6226.8164};
+		dir[]={-0.66945523,-0.31378004,0.67349654};
+		up[]={-0.2212697,0.94946706,0.22260526};
+		aside[]={0.70930898,6.9657108e-007,0.70505238};
 	};
 };
 binarizationWanted=0;
@@ -72,7 +72,9 @@ addons[]=
 	"A3_Structures_F_EPC_Civ_Kiosks",
 	"A3_Structures_F_Exp_Commercial_FuelStation_01",
 	"A3_Structures_F_Exp_Commercial_FuelStation_02",
-	"A3_Structures_F_Heli_Furniture"
+	"A3_Structures_F_Heli_Furniture",
+	"A3_Structures_F_Mil_Offices",
+	"A3_Structures_F_Civ_Offices"
 };
 class AddonsMetaData
 {
@@ -349,7 +351,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=894;
+		items=905;
 		class Item0
 		{
 			dataType="Marker";
@@ -4885,7 +4887,6 @@ class Mission
 				angles[]={0,3.0901928,6.2826972};
 			};
 			side="Empty";
-			flags=4;
 			class Attributes
 			{
 				skill=0.60000002;
@@ -4893,6 +4894,7 @@ class Mission
 			};
 			id=282;
 			type="Land_CashDesk_F";
+			atlOffset=1.1842289;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -15790,7 +15792,6 @@ class Mission
 				angles[]={0,2.3506639,0};
 			};
 			side="Empty";
-			flags=4;
 			class Attributes
 			{
 				skill=0.60000002;
@@ -15798,6 +15799,7 @@ class Mission
 			};
 			id=544;
 			type="Land_CashDesk_F";
+			atlOffset=0.47982728;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -24204,6 +24206,7 @@ class Mission
 			};
 			id=746;
 			type="Land_CashDesk_F";
+			atlOffset=0.20866203;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -24237,13 +24240,13 @@ class Mission
 				angles[]={0,2.7419298,0};
 			};
 			side="Empty";
-			flags=4;
 			class Attributes
 			{
 				skill=0.60000002;
 			};
 			id=747;
 			type="Land_CashDesk_F";
+			atlOffset=0.56286049;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -24444,6 +24447,7 @@ class Mission
 			};
 			id=752;
 			type="Land_CashDesk_F";
+			atlOffset=0.18852997;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -24686,6 +24690,7 @@ class Mission
 			};
 			id=758;
 			type="Land_CashDesk_F";
+			atlOffset=0.19405365;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -32852,7 +32857,6 @@ class Mission
 						angles[]={0,5.2196865,0};
 					};
 					side="Civilian";
-					flags=4;
 					class Attributes
 					{
 						skill=0.60000002;
@@ -32861,7 +32865,7 @@ class Mission
 					};
 					id=984;
 					type="C_man_1";
-					atlOffset=1.3828278e-005;
+					atlOffset=0.45300007;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -32942,7 +32946,7 @@ class Mission
 					};
 					id=985;
 					type="C_man_polo_3_F";
-					atlOffset=0.00017166138;
+					atlOffset=0.14599991;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -35327,7 +35331,6 @@ class Mission
 						angles[]={0,0.53848642,6.2823472};
 					};
 					side="Civilian";
-					flags=4;
 					class Attributes
 					{
 						skill=0.60000002;
@@ -35336,7 +35339,7 @@ class Mission
 					};
 					id=1020;
 					type="C_man_1";
-					atlOffset=0.0003490448;
+					atlOffset=0.51200104;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -38325,7 +38328,6 @@ class Mission
 						angles[]={0,6.1261058,0};
 					};
 					side="Civilian";
-					flags=4;
 					class Attributes
 					{
 						init="this enableSimulation false; this allowDamage false; this addAction[localize""STR_MAR_Station_Shop"",life_fnc_weaponShopMenu,""f_station_store"",1.5,true,true,"""",""true"",5];this addAction[localize""STR_Shop_Station_Coffee"",life_fnc_virt_menu,""f_station_coffee"",1.5,true,true,"""",""true"",5];";
@@ -38334,7 +38336,7 @@ class Mission
 					};
 					id=1067;
 					type="C_Nikos_aged";
-					atlOffset=5.1498413e-005;
+					atlOffset=0.5720005;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -38737,7 +38739,7 @@ class Mission
 					};
 					id=1077;
 					type="C_Nikos_aged";
-					atlOffset=9.9182129e-005;
+					atlOffset=0.19100189;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -39223,7 +39225,7 @@ class Mission
 					};
 					id=1089;
 					type="C_Nikos_aged";
-					atlOffset=0.00020599365;
+					atlOffset=0.20899963;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -41920,121 +41922,205 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={3691.6106,11.699373,13152.319};
-				angles[]={0,1.6159829,0};
+				position[]={25215.125,91.415077,21830.125};
+				angles[]={0,4.8259597,0};
 			};
 			side="Empty";
+			flags=5;
 			class Attributes
 			{
-				init="_null=this execVM ""The-Programmer\Gouvernement\init.sqf"";";
 			};
 			id=1225;
-			type="Land_InfoStand_V1_F";
-			atlOffset=0.83600044;
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="allowDamage";
-					expression="_this allowdamage _value;";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=0;
-						};
-					};
-				};
-				nAttributes=1;
-			};
+			type="Land_MilOffices_V1_F";
+			atlOffset=-0.35384369;
 		};
 		class Item892
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={3273.125,3.1188741,12975.375};
-				angles[]={-0,6.2126904,-0};
+				position[]={25260.5,93.024414,21852.5};
 			};
 			side="Empty";
-			flags=4;
+			flags=5;
 			class Attributes
 			{
-				init="_null=this execVM ""The-Programmer\Gouvernement\initCop.sqf"";";
 			};
 			id=1226;
-			type="Land_InfoStand_V1_F";
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="allowDamage";
-					expression="_this allowdamage _value;";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=0;
-						};
-					};
-				};
-				nAttributes=1;
-			};
+			type="Land_Offices_01_V1_F";
+			atlOffset=0.016548157;
 		};
 		class Item893
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={3737.6323,19.58507,12979.72};
-				angles[]={0,3.0128922,6.2826962};
+				position[]={25260,89.264244,21819.125};
 			};
 			side="Empty";
-			flags=4;
+			flags=5;
 			class Attributes
 			{
-				init="_null=this execVM ""The-Programmer\Gouvernement\initMed.sqf""; ";
+				init="this allowDamage false; this enableSimulation false; this setVariable [""gangNum"",""Gang_Area_1"", true];";
 			};
 			id=1227;
-			type="Land_InfoStand_V1_F";
-			atlOffset=0.14599991;
-			class CustomAttributes
+			type="Flag_Red_F";
+		};
+		class Item894
+		{
+			dataType="Marker";
+			position[]={25260,85.077003,21819.125};
+			name="gang_cap_1";
+			text="Uncontrolled Area";
+			type="mil_triangle";
+			colorName="ColorEAST";
+			id=1228;
+			atlOffset=-0.21043396;
+		};
+		class Item895
+		{
+			dataType="Object";
+			class PositionInfo
 			{
-				class Attribute0
-				{
-					property="allowDamage";
-					expression="_this allowdamage _value;";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=0;
-						};
-					};
-				};
-				nAttributes=1;
+				position[]={8571.75,195.45735,18112.5};
+				angles[]={0,4.8041086,0};
 			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=1229;
+			type="Land_Offices_01_V1_F";
+		};
+		class Item896
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={8371,184.07814,18233.5};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+				init="this allowDamage false; this enableSimulation false; this setVariable [""gangNum"",""Gang_Area_2"", true];";
+			};
+			id=1230;
+			type="Flag_Red_F";
+		};
+		class Item897
+		{
+			dataType="Marker";
+			position[]={8371,180.103,18233.5};
+			name="gang_cap_2";
+			text="Uncontrolled Area";
+			type="mil_triangle";
+			colorName="ColorEAST";
+			id=1231;
+			atlOffset=0.001663208;
+		};
+		class Item898
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={21688.701,15.485422,6146.7476};
+				angles[]={6.2195601,4.0395641,-0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=1232;
+			type="Land_MilOffices_V1_F";
+		};
+		class Item899
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={21926.084,14.187089,6467.7813};
+				angles[]={6.1782007,2.4154174,6.1720419};
+			};
+			side="Empty";
+			flags=1;
+			class Attributes
+			{
+			};
+			id=1233;
+			type="Land_Offices_01_V1_F";
+			atlOffset=0.98110247;
+		};
+		class Item900
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={21824.75,8.6900759,6257.375};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+				init="this allowDamage false; this enableSimulation false; this setVariable [""gangNum"",""Gang_Area_3"", true];";
+			};
+			id=1235;
+			type="Flag_Red_F";
+		};
+		class Item901
+		{
+			dataType="Marker";
+			position[]={21824.75,4.7150002,6257.375};
+			name="gang_cap_3";
+			text="Uncontrolled Area";
+			type="mil_triangle";
+			colorName="ColorEAST";
+			id=1236;
+			atlOffset=0.0017290115;
+		};
+		class Item902
+		{
+			dataType="Marker";
+			position[]={21823.904,4.77,6256.9521};
+			name="marker_229";
+			markerType="ELLIPSE";
+			type="ellipse";
+			colorName="ColorEAST";
+			fillName="DiagGrid";
+			a=150;
+			b=150;
+			id=1237;
+			atlOffset=0.00033187866;
+		};
+		class Item903
+		{
+			dataType="Marker";
+			position[]={25259.961,85.265999,21818.729};
+			name="marker_230";
+			markerType="ELLIPSE";
+			type="ellipse";
+			colorName="ColorEAST";
+			fillName="DiagGrid";
+			a=150;
+			b=150;
+			id=1238;
+			atlOffset=-0.00019073486;
+		};
+		class Item904
+		{
+			dataType="Marker";
+			position[]={8371,180.101,18233.5};
+			name="marker_231";
+			markerType="ELLIPSE";
+			type="ellipse";
+			colorName="ColorEAST";
+			fillName="DiagGrid";
+			a=150;
+			b=150;
+			id=1239;
+			atlOffset=-0.00033569336;
 		};
 	};
 };
